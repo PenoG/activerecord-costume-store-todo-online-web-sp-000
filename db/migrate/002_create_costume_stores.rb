@@ -1,6 +1,6 @@
 # Create your costume_stores migration here
 
-class CreateCostumeStores < ActiveRecord::Migration[5.2]
+class Costume_Stores < ActiveRecord::Migration[5.2]
   def change
     create_table :CostumeStore do |s|
       s.string :name
